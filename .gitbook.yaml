@@ -1,0 +1,14 @@
+# configure how GitBook should parse the Git repository
+# see: https://docs.gitbook.com/integrations/github/content-configuration
+
+# tell GitBook the path to lookup for documentation
+# defaults to the root directory of the repository
+# All other options that specify paths will be relative to this root folder
+root: ./
+
+# The structure accepts two properties
+# readme: the first page, default is ./README.md
+# summary: the table of content, default is ./README.md
+​structure:  
+    readme: README.md  
+    summary: SUMMARY.md​
